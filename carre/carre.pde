@@ -10,5 +10,9 @@ void draw() {
 void carre() {
   //utiliser line()
   //(TF-l)/2
+  line((TF+l)/2,(TF+l)/2,(TF+l)/2,(TF-l)/2);
+  line((TF+l)/2,(TF-l)/2,(TF-l)/2,(TF-l)/2);
+  line((TF-l)/2,(TF-l)/2,(TF-l)/2,(TF+l)/2);
+  line((TF-l)/2,(TF+l)/2,(TF+l)/2,(TF+l)/2);
 }
 
